@@ -7,7 +7,7 @@
 
 # 界面
 
-    ![image](screenshots/11.png)  
-    ![image](screenshots/22.png)
-    ![image](screenshots/33.png)
+    ![image](screenshots/11.jpg)  
+    ![image](screenshots/22.jpg)
+    ![image](screenshots/33.jpg)
 
