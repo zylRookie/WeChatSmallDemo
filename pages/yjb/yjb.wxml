@@ -1,0 +1,62 @@
+<view class='myView'>
+  <swiper class='banner' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='aspectFill' width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='listIcon'>
+    <view class='listIcon-item' wx:for="{{iconArray}}">
+      <view class='image-xml'>
+        <image src="{{item.iconUrl}}" class='iconImage'></image>
+      </view>
+      <view class='text-xml'>
+        <text>{{item.textArray}}</text>
+      </view>
+
+    </view>
+  </view>
+
+  <view>
+    <view class='infoList' wx:for="{{infoArray}}">
+      <view class='info-text'>
+        <text>{{item.infoText}}</text>
+      </view>
+      <view class='info-image'>
+        <image src='{{item.infoUrl}}' bindload='cusImageLoad' style="width: {{imageWidth}};height: {{imageHeight}}"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='viewGoods'>
+    <view class='youLike'>
+      <text>猜你喜欢</text>
+    </view>
+    <view class='goods'>
+      <view class='goosImage'>
+        <image src='../../images/zhutu.jpg' class='goosImgeIcon'></image>
+      </view>
+      <view class='goosRight'>
+        <navigator url='../detail/detail'>
+          <view class='goosTitle'>
+            <text>木村耀司登山旅行大学生户外情侣双肩背包外带小背包</text>
+          </view>
+          <view class='goodsAddr'>
+            <text>杭州</text>
+          </view>
+          <view class='goodsMoney'>
+            <text>￥168.00</text>
+            <view class='car'>
+              <image src='../../images/car.png' class='carIcon'></image>
+            </view>
+          </view>
+        </navigator>
+      </view>
+
+    </view>
+  </view>
+
+
+</view>

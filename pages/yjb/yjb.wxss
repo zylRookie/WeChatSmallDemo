@@ -1,0 +1,125 @@
+.myView {
+  background-color: #f6f6f6;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 300rpx;
+  margin: 1px;
+}
+
+.listIcon {
+  padding: 15px 0 10px 0;
+  overflow: auto;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.listIcon-item {
+  width: 25%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.image-xml {
+  width: 40px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.iconImage {
+  width: 40px;
+  height: 40px;
+}
+
+.text-xml {
+  text-align: center;
+  font-size: 13px;
+  color: #737373;
+}
+
+/* .infoImage {
+  width: 100%;
+} */
+
+.info-text {
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.infoList {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.info-image {
+  line-height: 0;
+}
+
+.youLike {
+  padding: 10px;
+  background-color: #fff;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
+.goods {
+  background-color: #fff;
+  line-height: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.goosImage {
+  padding: 10px;
+}
+
+.goosImgeIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.goosTitle {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+
+.goosRight {
+  padding: 10px;
+}
+
+.goodsAddr {
+  font-size: 14px;
+  color: #f3f3f3;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.goodsMoney {
+  font-size: 14px;
+  color: #f00;
+}
+
+.carIcon {
+  width: 15px;
+  height: 15px;
+}
+
+.car {
+  float: right;
+}
